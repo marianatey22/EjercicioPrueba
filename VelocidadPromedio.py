@@ -1,9 +1,9 @@
-# Autor: Roberto Mtz. Román
-# Calcula la velocidad promedio en un viaje
+# Autor: Mariana Teyssier Cervantes
+# Prueba programas. Calcula la velocidad promedio
 
-tiempo = int(input("Teclea el tiempo del viaje en hrs. enteras: "))
-distancia = int(input("Teclea la distancia del viaje en km enteros: "))
+distancia = int(input("Teclea la distancia de tu viajeen kms enteros: "))
+tiempo = int(input("Teclea el tiempo de tu viaje en hrs enteras: "))
 
-velocidad = distancia / tiempo
+velocidad= distancia/tiempo
 
-print("La velocidad promedio es:", velocidad, "km/h")
+print("velocidad promedio:",velocidad, "km/h")
